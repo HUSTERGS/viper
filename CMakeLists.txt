@@ -9,7 +9,7 @@ option(VIPER_BUILD_PLAYGROUND "Set ON if playground should be built." OFF)
 option(VIPER_BUILD_BENCHMARKS "Set OM if benchmarks should be built." OFF)
 
 option(VIPER_CONCURRENT_QUEUE_PROVIDED "Set ON if the concurrentqueue dependency is provided and should not be
-                                        downloaded by Viper." OFF)
+                                        downloaded by Viper." ON)
 
 option(VIPER_PMDK_PROVIDED "Set OFF if libpmem is not handled by your project and should be included by Viper.
                             This should be ON if you are already including libpmem want to avoid conflicting paths for
